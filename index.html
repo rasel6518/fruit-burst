@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .lato-font {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- nav section  -->
+        <div class="navbar bg-[#F85559] rounded-[600px]  pr-20 pl-20 h-[120px]">
+            <div class="navbar-start">
+                <div class="">
+
+                    <ul class="flex gap-10 text-white text-base ">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-center flex items-center justify-center my-10">
+                <img src="./images/logo.png" alt="">
+                <a class="btn btn-ghost normal-case text-white text-5xl">Fruit Burst</a>
+            </div>
+            <div class="navbar-end">
+                <input type="search" name="" id="" placeholder="Search here"
+                    class="rounded-[40px] py-5 pl-5 pr-48 outline-none relative">
+                <button class="btn btn-ghost  absolute right-24 btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6  w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+</body>
+
+</html>
