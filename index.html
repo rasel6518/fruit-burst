@@ -35,7 +35,7 @@
 
 <body>
 
-    <header>
+    <header class=" ">
 
         <!-- nav section  -->
         <div class="navbar bg-[#F85559] rounded-[600px]  pr-20 pl-20 h-[120px]">
@@ -66,6 +66,45 @@
                 </button>
 
             </div>
+        </div>
+        <!-- slider section -->
+
+        <div class="carousel  relative  w-full h-full bg-black mt-16">
+            <div id="slide1" class="carousel-item  opacity-60 relative lg:h-[600px] w-full">
+                <img src="./images/banner1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item opacity-60 lg:h-[600px] relative w-full">
+                <img src="./images/banner2.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item opacity-60 lg:h-[600px] relative w-full">
+                <img src="./images/banner3.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item opacity-60 lg:h-[600px] relative w-full">
+                <img src="./images/banner4.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center absolute top-64 right-96 space-y-10">
+            <h1 class="    text-white text-5xl              ">Exotic tastes at your doorstep</h1>
+            <p class=" text-white">We supply highly quality organic products</p>
+            <button class="btn bg-[#F85559] text-white border-0 btn-primary"> Shop Now</button>
+
+
         </div>
 
     </header>
