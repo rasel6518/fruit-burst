@@ -12,6 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <script>
         tailwind.config = {
             theme: {
@@ -127,30 +133,196 @@
 
         </div>
 
-        <!-- <div
-            class=" bg-white lg:m-auto    lg:w-[1100px] lg:h-[200px] border-2 border-gray-900 lg:p-5  lg:-mt-32 lg:z- grid grid-cols-1 lg:grid-cols-5">
-            <div class="text-center"><img class="m-auto" src="./images/fruit1.png" alt="">
-                <p>Strawberry</p>
-            </div>
-            <div class=""><img class="m-auto flex " src="./images/fruit2.png" alt="">
-                <p>Orange</p>
-            </div>
-            <div class=""><img class="m-auto" src="./images/fruit3.png" alt="">
-                <p>Mango</p>
-            </div>
-            <div class=""><img class="m-auto" src="./images/fruit4.png" alt="">
-                Strawberry</div>
-            <div class=""><img class="m-auto" src="./images/fruit5.png" alt="">
-                <p> Mango</p>
-            </div>
-        </div> -->
+
 
     </header>
-    <main>
+    <main class="mt-28">
+
+        <!-- deal of day -->
+        <section class="mx-10">
+            <div class="flex flex-col lg:flex-row my-20 ">
+                <div class="flex-1 space-y-5 justify-between items-center">
+                    <h1 class="text-4xl  font-extrabold">Deal of the day</h1>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="flex-1 flex justify-center items-center">
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:29;"></span>
+                            </span>
+                            days
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;"></span>
+                            </span>
+                            hours
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:25;"></span>
+                            </span>
+                            min
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:08;"></span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- card section  -->
+
+
+            <div class="">
+                <div class=" grid  gap-6 grid-cols-1 lg:grid-cols-4">
+                    <div class="card w-full bg-base-100 border-2 border-solid rounded-lg">
+                        <figure class="px-10 pt-10">
+                            <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <p class="text-2xl font-bold">12.90$ - 18.85$</p>
+                            <h2 class="card-title">Apples</h2>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <div class="card-actions">
+                                <button class="text-[#F85559] text-base font-bold">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-full bg-base-100 border-2 border-solid rounded-lg">
+                        <figure class="px-10 pt-10">
+                            <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <p class="text-2xl font-bold">12.90$ - 18.85$</p>
+                            <h2 class="card-title">Apples</h2>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <div class="card-actions">
+                                <button class="text-[#F85559] text-base font-bold">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-96 bg-base-100 border-2 border-solid rounded-lg">
+                        <figure class="px-10 pt-10">
+                            <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <p class="text-2xl font-bold">12.90$ - 18.85$</p>
+                            <h2 class="card-title">Apples</h2>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <div class="card-actions">
+                                <button class="text-[#F85559] text-base font-bold">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-96 bg-base-100 border-2 border-solid rounded-lg">
+                        <figure class="px-10 pt-10">
+                            <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <p class="text-2xl font-bold">12.90$ - 18.85$</p>
+                            <h2 class="card-title">Apples</h2>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <div class="card-actions">
+                                <button class="text-[#F85559] text-base font-bold">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-8"> <button class="btn bg-[#F85559] text-white"> Shop All</button></div>
+        </section>
+
+        <!-- Meet the team section -->
+
+
+        <section
+            class="my-20 mx-10 flex    justify-center items-center lg:h-[80vh]  bg-cover  bg-opacity-40	  bg-no-repeat bg-[url('./images/team.png')]">
+            <div class="">
+                <div class="text-center ">
+
+
+                    <h1 class="text-5xl text-white mb-6">Meet the team section</h1>
+                    <p class=" text-white lg:px-80">Contrary to popular belief, is not simply random text. It has roots
+                        in a
+                        piece of
+                        classical Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class=" lg:mt-10 :mx-10 px-20 gap-[100px] grid grid-cols-1 lg:grid-cols-4">
+                    <div class="">
+                        <img class="lg:w-20 lg:h-30" src="./images/member1.png" alt="">
+                        <h3 class="text-sm  text-white font-bold">Awlad Hossain</h3>
+                        <p class=" text-white text-xs">Fruits Expert</p>
+                    </div>
+                    <div class="">
+                        <img class="lg:w-20 h-30" src="./images/member2.png" alt="">
+                        <h3 class="text-sm  text-white font-bold">Safia Chowdhury</h3>
+                        <p class=" text-white text-xs">Fruits Expert</p>
+                    </div>
+                    <div class="">
+                        <img class="lg:w-20 h-30" src="./images/member3.png" alt="">
+                        <h3 class="text-sm  text-white font-bold">Rokib Hossain</h3>
+                        <p class=" text-white text-xs">Fruits Expert</p>
+                    </div>
+                    <div class=" ">
+                        <img class="lg:w-20 h-30" src="./images/member4.png" alt="">
+                        <h3 class="text-sm  text-white font-bold">Chaity</h3>
+                        <p class="  text-white text-xs">Fruits Expert</p>
+                        <div class=" space-x-2"><i class="fa-brands bg-[#F85559] text-white fa-twitter "></i>
+                            <i class="fa-brands fa-facebook   bg-[#F85559] text-white "></i>
+                            <i class="fa-brands fa-linkedin   bg-[#F85559] text-white  "></i>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+        </section>
 
     </main>
 
     <footer>
+
+
+
+
 
     </footer>
 
